@@ -1,0 +1,90 @@
+.author_checkbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.new-book-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+label{
+    margin-top: 30px;
+}
+
+.checkbox-problem{
+    margin-top:60px;
+}
+
+.botao-problema {
+    margin-left: 200px;
+    margin-right: 60%;
+    margin-top: 50px;
+    width: 200px; /* Define a largura do botão */
+    height: auto; /* Mantém a altura automática ou ajuste se necessário */
+}
+
+
+.newBook{
+    align-items: center;
+    position: relative;
+    margin-left: 750px;
+}
+.descricao{
+    align-items: center;
+    position: relative;
+    margin-left: 750px;
+    color: white !important;
+}
+
+.new-book-group-name{
+    display: flex; /* Torna o container flexível */
+    flex-direction: row; /* Coloca o label acima do input */
+    gap: 55px; /* Espaçamento entre o label e o campo */
+    margin-bottom: 16px; /* Espaçamento entre este grupo e os outros grupos */
+}
+.new-book-group-gender{
+    display: flex; /* Torna o container flexível */
+    flex-direction: row; /* Coloca o label acima do input */
+    gap: 137px; /* Espaçamento entre o label e o campo */
+    margin-bottom: 16px; /* Espaçamento entre este grupo e os outros grupos */
+}
+.new-book-group-autor{
+    display: flex; /* Torna o container flexível */
+    flex-direction: row; /* Coloca o label acima do input */
+    gap: 170px; /* Espaçamento entre o label e o campo */
+    margin-bottom: 16px; /* Espaçamento entre este grupo e os outros grupos */
+    
+}
+.new-book-group-img{
+    display: flex; /* Torna o container flexível */
+    flex-direction: row; /* Coloca o label acima do input */
+    gap: 130px; /* Espaçamento entre o label e o campo */
+    margin-bottom: 16px; /* Espaçamento entre este grupo e os outros grupos */
+}
+
+
+.checkbox-problem label {
+    color: rgb(255, 255, 255); /* Define o texto do autor como branco */
+    font-size: 16px; /* Ajusta o tamanho da fonte, se necessário */
+  }
+.pAutor {
+    margin-right: 8px; /* Espaçamento entre o checkbox e o texto do autor */
+  }
+
+.form{
+    margin-left: 600px;
+}
+
+.textUserNew{
+    color: white !important;
+    font-size: 24px;
+    top: 20px;
+    position: relative;
+}
+
+.formTudo{
+    margin-left: 50px;
+}

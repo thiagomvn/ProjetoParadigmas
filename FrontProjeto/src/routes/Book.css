@@ -1,0 +1,85 @@
+.main_containerDetail {
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    padding-top: 20px;
+  }
+  
+  .books_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px;
+    
+  }
+  
+  .imagemLivro {
+    max-width: 400px; /* Limita o tamanho da imagem */
+    margin-bottom: 0px;
+    margin-top: 4cap;
+    margin-left: 40px;
+  }
+  
+  .bookname {
+    font-size: px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  
+  .buttonsBook {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    margin-top: 20px; /* Espaço entre o título e os botões */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
+  .comments_container {
+    margin-top: 40px; /* Distância entre os botões e os comentários */
+    width: 80%; /* Centraliza o container de comentários */
+   
+  }
+
+.pBook{
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    font-size: 16px;
+}
+  
+.comentarioForm{
+    margin-left: 450px;
+}
+
+.buttonComent{
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.textUser{
+    font-size: 24px;
+    color: white;
+    top: 8px;
+
+}

@@ -1,0 +1,27 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media
+
+# Development
+.env
+.venv
+venv/
+*.sqlite3
+/local_settings.py
+
+# Static files
+/static/
+
+# If you are using PostgreSQL
+*.pgsql
+*.pgsql-shm
+*.pgsql-wal

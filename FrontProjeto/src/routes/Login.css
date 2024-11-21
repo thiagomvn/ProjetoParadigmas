@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffffe7;
+}
+.container {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    background-color: #e7e7e7;
+    padding: 20px 15px;
+    margin-top: 100px;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 10px 11px rgba(14, 7, 119, 0.384)
+    
+  }
+  .container_2 {
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 15px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 10px 11px rgba(14, 7, 119, 0.384)
+    
+  }
+  .loginText {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    color: #023047;
+    margin-left: 70px;
+    font-weight: 500;
+    display: flex;
+  }
+  .cadastroText {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    color: #023047;
+    margin-left: 50px;
+    font-weight: 500;
+    display: flex;
+  }
+  p{ 
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    padding: 0;
+    margin-top: 15px;
+    color: #023047;
+    margin-left: 40px;
+    font-size: 14px;
+  }
+  
+  .login-form {
+    padding: 10px;
+  }
+  .login-form-group{
+    width: 50px;
+    height: 100px;
+    
+  }
+  
+  .form-field {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    height: 30px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-error {
+    display: inline-flex;
+    color: rgba(255, 0, 0, 0.664);
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-left: 295px;
+    margin-top: -10px;
+    
+  }
+  
+  .buttonLogin {
+    margin-top: 40px;
+    margin-left: 39px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #fff;
+    width: 325px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+
+  .buttonLogin:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+    color: #000000;
+
+}
+.buttonCd {
+  margin-top: 20px;
+  margin-left: 39px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  color: #fff;
+  width: 325px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.buttonCd:hover {
+  transform: scale(1.05);
+  background-color: #ffffff;
+  color: #000000;
+
+}
+
+.textUser{
+    color: #023047 !important;
+    position: relative;
+    top: 40px !important;
+    margin-left: 40px;
+    
+    
+}
+  
+.links {
+  display: flex;
+  margin-top:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0px;
+  font-size: 30px;
+  padding-left: 630px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+
+.links a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Usa a cor do texto do elemento pai */
+}
+
+.links a:focus, .links a:active {
+  outline: none; /* Remove a borda de foco */
+}
+
+.links a:hover, .links a:visited {
+  text-decoration: none; /* Remove o sublinhado ao passar o mouse ou ao visitar o link */
+  color: inherit; /* Mantém a cor do texto */
+}
+
+.menu{
+  position: relative;
+  right: 10px;
+  top: 50px;
+  font-family: 'Inter';
+  font-weight: 300;
+}
+
+.link_menu:hover {
+  color: #033b57;
+  
+}
+
+.link_menu{
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Usa a cor do texto do elemento pai */
+  font-size: 40px;
+  position: relative;
+  top: 150px;
+  left: 95px;
+  background-color: #033b573f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.cadastro {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  text-decoration: none;
+  color: #023047;
+}
+
+.cadastro:hover {
+  color: #033b57;
+  text-decoration: underline;
+}
+
+
+
